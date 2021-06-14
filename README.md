@@ -26,7 +26,7 @@ The Cboe Volatility Index (VIX) is a real-time index that represents the market'
 
 ## The strategy I have used
 
-First of all I have ploted both the graph of s&p500 and vix index. According the the plotted graph, I have decided that whenever vix index hit 35 or more i will buy the shares as fear is in market.
+First of all I have plotted both the graph of s&p500 and vix index. According the the plotted graph, I have decided that whenever vix index hit 35 or more i will buy the shares as fear is in market.
 Then I have tested by selling the shares whenever vix index hit 10. But result was not so good.
 Then I have created a strategy where I will add 5000$ of cash to the broker at every 20 days or one market month. And buy stocks only when vix index hit 35. This gave a preety nice result.
 
@@ -52,7 +52,14 @@ Then I have created a strategy where I will add 5000$ of cash to the broker at e
 
 ## Datasets
 
-I have downloaded the [S&P500](https://github.com/ArunavD/vix_strategy_backtest/blob/master/spy.csv) amd [VIX](https://github.com/ArunavD/vix_strategy_backtest/blob/master/vix.csv) datasets and combine the to use my strategy as [SPY_VIX.csv](https://github.com/ArunavD/vix_strategy_backtest/blob/master/spy_vix.csv).
+I have downloaded the [S&P500](https://github.com/ArunavD/vix_strategy_backtest/blob/master/spy.csv) and [VIX](https://github.com/ArunavD/vix_strategy_backtest/blob/master/vix.csv) datasets and combine the to use my strategy as [SPY_VIX.csv](https://github.com/ArunavD/vix_strategy_backtest/blob/master/spy_vix.csv).
 Other stocks historical data also can be downloaded from [yahoo finance](https://in.finance.yahoo.com/).
 
 
+## How to use?
+
+Finally one can run the project by typing as bellow:
+
+```
+$ python main.py
+```
