@@ -52,7 +52,7 @@ Then I have created a strategy where I will add 5000$ of cash to the broker at e
 
 ## Datasets
 
-I have downloaded the [S&P500](https://github.com/ArunavD/vix_strategy_backtest/blob/master/spy.csv) and [VIX](https://github.com/ArunavD/vix_strategy_backtest/blob/master/vix.csv) datasets and combine the to use my strategy as [SPY_VIX.csv](https://github.com/ArunavD/vix_strategy_backtest/blob/master/spy_vix.csv).
+I have downloaded the [S&P500](https://github.com/ArunavD/vix_strategy_backtest/blob/master/spy.csv) and [VIX](https://github.com/ArunavD/vix_strategy_backtest/blob/master/vix.csv) datasets and combine them to use my strategy as [SPY_VIX.csv](https://github.com/ArunavD/vix_strategy_backtest/blob/master/spy_vix.csv).
 Other stocks historical data also can be downloaded from [yahoo finance](https://in.finance.yahoo.com/).
 
 
